@@ -9,7 +9,19 @@ body {
   
 header {
     padding-bottom: 32px;
+    margin: 0;
   }
+  div.container-fluid {
+    height: auto;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+.carousel-app{
+    display: flex;
+    height: 190px;
+    margin-top: 0;
+
+}
 .bodymain {
     background-color: #ffffff;
     height: auto;
@@ -26,6 +38,7 @@ header {
 main.cards {
     display: flex;
     padding: 32px;
+    margin: 0;
 }
 
 main.cards section.card {

@@ -103,7 +103,7 @@
                     Saiba mais
                 </button>
             </div>
-          
+
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog">
@@ -182,34 +182,65 @@
         </div>
 
     </div>
-
-    <footer class="bg-light py-3">
+    <footer id="myFooter">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <h5>Sobre nós</h5>
-                    <p>Nosso programa de ensino se baseia nos 5 pilares do "Tech For Good": Educação, Diversidade,
-                        Saúde, Longevidade e Sustentabilidade. Acreditamos que, através da educação e capacitação em
-                        tecnologia, podemos contribuir para a formação de indivíduos mais capazes e preparados para
-                        enfrentar os desafios do mundo atual.</p>
+                <div class="col-sm-3">
+                    <img src="img/logo/goodplayH.png" alt="logo goodpay" height="85">
                 </div>
-                <div class="col-md-4">
-                    <h5>Acesse</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Apresentação</a></li>
-                        <li><a href="#">Entre em contato</a></li>
+                <div class="col-sm-2">
+                    <h5>Início</h5>
+                    <ul>
+                        <li><a href="">Quem Somos</a></li>
+                        <li><a href="">SoulCode</a></li>
+                        <li><a href="">Cadastro de Colaborador</a></li>
+                        <li><a href="mapadosite.html">Mapa do site</a></li>
                     </ul>
                 </div>
-                <div class="col-md-4">
-                    <h5>Contato</h5>
-                    <ul class="list-unstyled">
-                        <li>Email: <a href="mailto:info@goodpay.com">info@goodpay.com</a></li>
-                        <li>Telefone: (123) 456-7890</li>
-                        <li>Endereço: Av. Paulista, 123 - São Paulo/SP</li>
+                <div class="col-sm-2">
+                    <h5>Serviços</h5>
+                    <ul>
+                        <li><a href="">Aplicativo</a></li>
+                        <li><a href="">E-bank</a></li>
+                        <li><a href="">Dashboard</a></li>
+                        <li><a href="">Parceiros</a></li>
+
                     </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Suporte</h5>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="">Recuperar Senha</a></li>
+                        <li><a href="">Privacidade e Termos de Uso</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <a href="">
+                        <button type="button" class="btn btn-default"><strong>Cadastro</strong></button>
+                    </a>
+                    <button type="button" class="btn btn-primary" id="liveToastBtn"><strong>Onde
+                            Estamos?</strong></button>
+                    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                            <div class="toast-header">
+                                <div id="img-toast">
+                                    <img src="img/logo/GoodPay.png" class="rounded me-2" alt="Logo GoodPay Toast"
+                                        width="30px">
+                                </div>
+                                <strong class="me-auto">Onde Estamos?</strong>
+                                <small>agora mesmo</small>
+                                <button type="button" class="btn-close" data-bs-dismiss="toast"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div id="geolocation" class="toast-body"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2022 Copyright - Soulcode Academy</p>
         </div>
     </footer>
     <div vw class="enabled">
@@ -232,4 +263,3 @@
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
 </body>
-</html>
